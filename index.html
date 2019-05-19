@@ -9,9 +9,12 @@
   </head>
   <body>
     <div id="header">
-      <div id="topMenu">
-        <div id="option1">Find jobs</div>
-        <div id="option2" class="activeOption">Employers / Post Job</div>
+      <div class="topMenuBG">
+        <div id="topMenu">
+          <div id="option1">Find jobs</div>
+          <div id="option2" class="activeOption">Employers / Post Job</div>
+          <div id="login">My Account</div>
+        </div>
       </div>
 
       <div id="mainMenu">
@@ -21,6 +24,13 @@
         </div>
 
         <div class="rightMenu">
+          <div id="menuOptions">
+            <a class="menuItem">Home</a>
+            <a class="menuItem">About</a>
+            <a class="menuItem">Pricing</a>
+            <a class="menuItem">Contact</a>
+          </div>
+
           <div id="demoButton">
             Book a demo
           </div>
@@ -33,39 +43,41 @@
     </div>
 
     <div id="homeWrapper">
-      <div id="introHeading">
-        <h1>Using technology to disrupt recruitment</h1>
-      </div>
-
-      <div id="benefitList">
-        <div class="benefit">
-          <div class="tickIcon"></div>
-          <span>Intelligent matching algorithm</span>
+      <div id="leftSideWrapper">
+        <div id="introHeading">
+          <h1>Using technology to disrupt recruitment</h1>
         </div>
 
-        <div class="benefit">
-          <div class="tickIcon"></div>
-          <span>Video interview technology</span>
+        <div id="benefitList">
+          <div class="benefit">
+            <div class="tickIcon"></div>
+            <span>Intelligent matching algorithm</span>
+          </div>
+
+          <div class="benefit">
+            <div class="tickIcon"></div>
+            <span>Video interview technology</span>
+          </div>
+
+          <div class="benefit">
+            <div class="tickIcon"></div>
+            <span>Applicant management portal</span>
+          </div>
+
+          <div class="benefit">
+            <div class="tickIcon"></div>
+            <span>Customisable dashboard</span>
+          </div>
+
+          <div class="benefit">
+            <div class="tickIcon"></div>
+            <span>Fixed fee recruitment</span>
+          </div>
         </div>
 
-        <div class="benefit">
-          <div class="tickIcon"></div>
-          <span>Applicant management portal</span>
+        <div id="mainDemoButton">
+          Book a demo
         </div>
-
-        <div class="benefit">
-          <div class="tickIcon"></div>
-          <span>Customisable dashboard</span>
-        </div>
-
-        <div class="benefit">
-          <div class="tickIcon"></div>
-          <span>Fixed fee recruitment</span>
-        </div>
-      </div>
-
-      <div id="mainDemoButton">
-        Book a demo
       </div>
 
       <div id="videoLink">
@@ -78,6 +90,11 @@
           How it works
         </div>
       </div>
+
+      <div id="videoBox"></div>
+      <div id="videoBackgroundOne"></div>
+      <div id="videoBackgroundTwo"></div>
+      <div id="videoBackgroundThree"></div>
     </div>
 
     <div id="trustedSection">
@@ -122,18 +139,17 @@
           <div class="whiteBox">
             <div class="icon"></div>
 
-            <h3>Save time</h3>
+            <h3>Improve reach</h3>
 
             <p>
-              Set your hiring criteria and Meow ltd. are able to share
-              qualifying candidates within hours saving you time and money.
+              We have integrated with major job boards to improve reach but also
+              with niche job boards, blogs, and content websites.
             </p>
           </div>
 
           <div class="bottomBox">
             <p class="bottomBoxText">
-              Utilising proprietary technology to search and match the best
-              candidates for your role.
+              Leveraging unique reach within key universities and career groups.
             </p>
           </div>
         </div>
@@ -142,18 +158,17 @@
           <div class="whiteBox">
             <div class="icon"></div>
 
-            <h3>Save time</h3>
+            <h3>Fixed price</h3>
 
             <p>
-              Set your hiring criteria and Meow ltd. are able to share
-              qualifying candidates within hours saving you time and money.
+              Unlike a traditional agency, we offer a fixed price model allowing
+              you to control your hiring costs saving on recruitment fees.
             </p>
           </div>
 
           <div class="bottomBox">
             <p class="bottomBoxText">
-              Utilising proprietary technology to search and match the best
-              candidates for your role.
+              Enabling you to save your business time and other internal costs.
             </p>
           </div>
         </div>
@@ -167,7 +182,7 @@
 
       <div id="learnMore">
         <div id="learnMoreIcon"></div>
-        <a href="#">Learn a little more</a>
+        <a id="learnMoreText" href="#">Learn a little more</a>
       </div>
     </div>
   </body>
